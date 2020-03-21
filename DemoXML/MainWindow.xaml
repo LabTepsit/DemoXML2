@@ -8,7 +8,7 @@
         Title="MainWindow" Height="450" Width="800">
     <Grid>
         <Button x:Name="btnCarica" Content="Visualizza dati" HorizontalAlignment="Left" Margin="43,46,0,0" VerticalAlignment="Top" Height="28" Width="157" Click="Aggiorna_Click"/>
-        <ListBox  x:Name="lstAtleti" Margin="43,146,337,65"/>
+        <ListBox  x:Name="lstAtleti" Margin="43,146,337,66"/>
         <Button x:Name="btnStop" Content="Interrompi Caricamento" HorizontalAlignment="Left" Margin="312,46,0,0" VerticalAlignment="Top" Height="28" Width="151" Click="Stop_Click"/>
 
     </Grid>
