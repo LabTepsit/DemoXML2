@@ -1,0 +1,15 @@
+﻿<Window x:Class="DemoXML.MainWindow"
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+        xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+        xmlns:local="clr-namespace:DemoXML"
+        mc:Ignorable="d"
+        Title="MainWindow" Height="450" Width="800">
+    <Grid>
+        <Button x:Name="btnCarica" Content="Visualizza dati" HorizontalAlignment="Left" Margin="43,46,0,0" VerticalAlignment="Top" Height="28" Width="157" Click="Aggiorna_Click"/>
+        <ListBox  x:Name="lstAtleti" Margin="43,146,337,65"/>
+        <Button x:Name="btnStop" Content="Interrompi Caricamento" HorizontalAlignment="Left" Margin="312,46,0,0" VerticalAlignment="Top" Height="28" Width="151" Click="Stop_Click"/>
+
+    </Grid>
+</Window>
